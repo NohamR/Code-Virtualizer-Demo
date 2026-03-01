@@ -54,3 +54,10 @@ The code includes a stealth area that:
 ![docs/p.png](docs/p.png)
 ![docs/ran.png](docs/ran.png)
 See [docs/logs.logs](docs/logs.logs) for available features applied to the demo.
+
+## License
+
+(c) 2024 Oreans Technologies  
+All rights are reserved by Oreans.com
+
+See [LICENSE](LICENSE) for the complete End User License Agreement.
