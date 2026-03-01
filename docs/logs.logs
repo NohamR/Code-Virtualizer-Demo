@@ -1,0 +1,52 @@
+Code Virtualizer ARM64 - Total Obfuscation against Reverse Engineering [Version 3.2.3.22]
+Copyright (C) Oreans Technologies 2003 - 2026
+
+File to Protect
+Input File: \\Mac\Home\Desktop\Virtualizer\Examples\Mac OS X\GCC\libswizzle_arm64.dylib
+Output File: \\Mac\Home\Desktop\Virtualizer\Examples\Mac OS X\GCC\libswizzle_arm64_protected.dylib
+
+Starting Protection
+-> Checking Input and Output files . . . OK
+-> Reading Protection Macros . . . OK (6 macros found)
+-> Initializing VM Engine . . . OK
+
+Ansi Strings to Virtualize
+No Ansi strings to virtualize
+
+Unicode Strings to Virtualize
+No Unicode strings to virtualize
+
+Virtual Machines Generation
+-> Machine #1 (FALCON64 ARM (Tiny) VM) . . . . OK (size 76 KB)
+
+Protecting Code Blocks
+-> Virtualizing code . . . OK
+
+Protecting Macros (Mutation & StrEncrypt)
+-> Macro #1: STR_ENCRYPT (0x000000000001FC44 - 0x000000000001FC50) . . . Skipped
+-> Macro #2: STR_ENCRYPT (0x000000000001FCD8 - 0x000000000001FCF0) . . . Skipped
+-> Macro #3: STR_ENCRYPT (0x000000000001FDD0 - 0x000000000001FE00) . . . Skipped
+
+Protecting Macros (Virtualization)
+[DEMO Restriction: All virtualization macros are converted to Falcon Tiny VM]
+-> Macro #4: VIRTUALIZER (0x000000000001FC30 - 0x000000000001FC78) . . . OK (size 1666 bytes)
+-> Macro #5: VIRTUALIZER (0x000000000001FCC4 - 0x000000000001FD78) . . . OK (size 4448 bytes)
+-> Macro #6: VIRTUALIZER (0x000000000001FDBC - 0x000000000001FE44) . . . OK (size 2679 bytes)
+
+Compressing Virtual Machines
+Compression disabled
+
+Finalizing Protection
+-> Rebuilding Output File . . . OK
+
+Report
+-> Input File Size: 162,52 kb
+-> Output File Size: 721,11 kb
+-> Increase in Size: 558,59 kb
+-> Stealth Code Area (unused space): 117 Kb 
+-> MD5 Hash: 0c028b849cde49e78a181f811ebb4834
+-> Elapsed Time: 1 seconds (using 4 cores)
+
+
+*** File successfully protected ***
+[Demo Restrictions applied]

@@ -1,0 +1,4 @@
+.DS_Store
+libswizzle_arm64.dylib
+libswizzle_arm64_protected.dylib
+test_swizzle_arm64
